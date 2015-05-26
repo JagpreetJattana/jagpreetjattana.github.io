@@ -1,0 +1,6 @@
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\bin\game-week3-part2.dll.config
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\bin\game-week3-part2.dll
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\bin\game-week3-part2.pdb
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\obj\Debug\game-week3-part2.csprojResolveAssemblyReference.cache
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\obj\Debug\game-week3-part2.dll
+c:\users\jattana\documents\visual studio 2013\Projects\game-week3-part2\game-week3-part2\obj\Debug\game-week3-part2.pdb

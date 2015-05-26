@@ -1,0 +1,142 @@
+﻿body {
+    
+    background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+background-image:url("../Assets/Images/zombie.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.impress-enabled .step{
+    margin:0;
+    opacity:0.0;
+    -webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+transition: 1s;
+
+}
+.impress-enabled .step.active{
+    opacity:1;
+
+}
+
+.slide{
+    display:block;
+    width:700px;
+    height:600px;
+    padding:40px 60px;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.3);
+    color:rgb(52,52,52);
+    text-shadow:0 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    font-family:'Open Sans', Arial, sans-serif;
+    font-size:30px;
+   
+}
+.slideone {
+    background-image: url("../Assets/Images/first2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+
+.slidethree {
+    background-image: url("../Assets/Images/runman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slidesix {
+    background-image: url("../Assets/Images/door.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slideseven {
+    background-image: url("../Assets/Images/firstaid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slidetwelwe {
+    background-image: url("../Assets/Images/endaszombie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slidethirteen {
+    background-image: url("../Assets/Images/car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slidefourteen {
+    background-image: url("../Assets/Images/attacked.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+.slidefifteen {
+    background-image: url("../Assets/Images/cry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+
+
+
+/*Styling for slide paragraphs*/
+.slide p{
+   
+    background-color:green;
+   
+    
+     color:black;
+    text-decoration:double;
+    font-weight:bolder;
+    font-size:26px;
+   
+    margin-top:15px;
+    margin-bottom:15px;
+    line-height:45px;
+
+}
+
+
+
+
+
+.slide a, .slide a:visited{
+    color:red;
+    text-decoration:none;
+    background-color:black;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #cde;
+    
+    
+}v
+.slide a:hover, .slide a:active {
+     background-color:#cde;
+
+
+ }
+ /*Styling for text area*/
+ .slide .slide-text{
+     height:450px;
+
+ }
+ /*Styling for menu*/
+ div.menu{
+     border-top:2px solid black;
+     padding-top:25px;
+     text-align:center;
+ }
