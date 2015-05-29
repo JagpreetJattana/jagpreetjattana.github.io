@@ -66,8 +66,15 @@
     <Content Include="Assets\Images\endaszombie.jpg" />
     <Content Include="Assets\Images\first2.jpg" />
     <Content Include="Assets\Images\firstaid.jpg" />
+    <Content Include="Assets\Images\house.jpg" />
+    <Content Include="Assets\Images\lost_street.jpg" />
+    <Content Include="Assets\Images\manager_killed.jpg" />
+    <Content Include="Assets\Images\men_talking.jpg" />
+    <Content Include="Assets\Images\Restaurant_entry.jpg" />
     <Content Include="Assets\Images\runman.jpg" />
     <Content Include="Assets\Images\zombie.jpg" />
+    <Content Include="Assets\Images\zombie_in_house.jpg" />
+    <Content Include="Assets\Images\zombie_room.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

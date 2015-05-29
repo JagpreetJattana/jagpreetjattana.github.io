@@ -1,9 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+<!--Source file name:index.html-->
+<!--Solution name:game-week3-part2-->
+<!--Author:Jagpreet Jattana-->
+<!--Last Modified By Jagpreet Jattana on May-29-2015-->
+<!--Description: This a simple story game that make use of impressJS. It contains 15 impressJS slides-->
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial scale=1.0"/>
-    <title></title>
+    <title>Zombies Game</title>
     <!--css section-->
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
@@ -11,7 +16,7 @@
 <body onload="init();">
     <div id="impress">
         <!--First slide-->
-        <div id="1" class="step slide slideone">
+        <div id="1" class="step slide slide_one">
             <div class="slide-text">
                 <p>You woke up in a hospital room. No one is there. 
                 TV is on and you came to know that city is infected with a deadly virus.
@@ -20,24 +25,28 @@
 Now you explore the room and found two buttons on the wall. Red and white.
 Which one you will press.
 </p>
-               
+               <!--Links to slide 2 and 3. It will go to eigther of these two slides based on the option selected by user-->
                 <div class="menu"><a href="#2">WHITE</a> <a href="#3">RED</a></div>
                 
             </div>
         </div><!--end of slide 1-->
 
         <!--Second slide-->
-        <div id="2" class="step slide" data-x="1500">
+        <div id="2" class="step slide slide_two" data-x="1500">
             <div class="slide-text">
                 <p>
-                    Wrong 2
+                    You press white button which opens front door. 
+                    You come out of door and started wandering the city. 
+                    You hear a noise coming from a restaurant.
+                     Will you enter or not? 
                 </p>
-                <div class="menu"><a href="#4">Left</a> <a href="#5">Right</a></div>
+                <!--Links to slide 4 and 5. It will go to eigther of these two slides based on the option selected by user-->
+                <div class="menu"><a href="#4">ENTER</a> <a href="#5">DO NOT ENTER</a></div>
             </div>
 
         </div><!--End of slide 2-->
         <!--Third slide-->
-        <div id="3" class="step slide slidethree" data-x="2500">
+        <div id="3" class="step slide slide_three" data-x="2500">
             <div class="slide-text">
                 <p>
                     You press Red button and back door of room opens.
@@ -45,46 +54,57 @@ Which one you will press.
                     You don’t know whether he is a zombie or not.
                     Will  you trust him or attack him.? 
                 </p>
+                <!--Links to slide 6 and 7. It will go to eigther of these two slides based on the option selected by user-->
                 <div class="menu"><a href="#6">ATTACK</a> <a href="#7">TRUST</a></div>
             </div>
 
         </div><!--End of slide 3-->
         <!--Fourth slide-->
-        <div id="4" class="step slide" data-y="4500">
+        <div id="4" class="step slide slide_four" data-y="4500">
             <div class="slide-text">
                 <p>
-                    Wrong 4
+                   You entered the restaurant. You met a man. 
+                    He asks you to follow him to be safe.
+                     Will you follow him or not? 
                 </p>
-                <div class="menu"><a href="#8">Left</a> <a href="#9">Right</a></div>
+                <!--Links to slide 8 and 9. It will go to eigther of these two slides based on the option selected by user-->
+                <div class="menu"><a href="#8">FOLLOW</a> <a href="#9">DO NOT FOLLOW</a></div>
             </div>
 
         </div><!--End of slide 4-->
         <!--Fifth slide-->
-        <div id="5" class="step slide" data-y="-4500">
+        <div id="5" class="step slide slide_five" data-y="-4500">
             <div class="slide-text">
                 <p>
-                    Wrong 5
+                    You did not enter the restaurant and go further. 
+                    You hear on radio that zombies are more active in night.
+                     So if there is a survivor then they should find a fine shelter to spend night.
+                     You saw a house. 
+                    Will you decide to spend a night there or not?
+                    Will you enter the house or not? 
                 </p>
-                <div class="menu"><a href="#10">Left</a> <a href="#11">Right</a></div>
+                <!--Links to slide 10 and 11. It will go to eigther of these two slides based on the option selected by user-->
+                <div class="menu"><a href="#10">ENTER</a> <a href="#11">DO NOT ENTER</a></div>
             </div>
 
         </div><!--End of slide 5-->
         <!--Sixth slide-->
-        <div id="6" class="step slide slidesix" data-x="-5500">
+        <div id="6" class="step slide slide_six" data-x="-5500">
             <div class="slide-text">
                 <p>
                     You attacked him. He was about to turn into a zombie.
-                    You move around city and found a sealed door of some hall.
+                    You move around city and found a sealed door of some big room.
                     You don’t know whether it is a safety camp or not
-                     Will you enter the hall or not? 
+                     Will you enter the big room or not? 
                 </p>
+                <!--Links to slide 12 and 13. It will go to eigther of these two slides based on the option selected by user-->
                 <div class="menu"><a href="#13">ENTER</a> <a href="#12">DO NOT ENTER</a></div>
             </div>
 
         </div><!--End of slide 6-->
 
         <!--Seventh slide-->
-        <div id="7" class="step slide slideseven" data-z="-2500">
+        <div id="7" class="step slide slide_seven" data-z="-2500">
             <div class="slide-text">
                 <p>
                      You trusted him. You give him first aid from hospital.
@@ -92,103 +112,120 @@ Which one you will press.
                      He said that he knows where the safety camp is.
                      Will you take him with you or not? 
                 </p>
+                <!--Links to slide 14 and 15. It will go to eigther of these two slides based on the option selected by user-->
                 <div class="menu"><a href="#14">TAKE</a> <a href="#15">LEAVE</a></div>
             </div>
 
         </div><!--End of slide 8-->
 
         <!--Eighth slide-->
-        <div id="8" class="step slide" data-y="-9500">
+        <div id="8" class="step slide slide_eight" data-y="-9500">
             <div class="slide-text">
                 <p>
-                    Wrong 8
+                    You followed him. Unfortunately he was getting infected with virus. 
+                    In the way he turned into complete zombie and killed you. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 8-->
 
         <!--Ninth slide-->
-        <div id="9" class="step slide" data-y="-7500">
+        <div id="9" class="step slide slide_nine" data-y="-7500">
             <div class="slide-text">
                 <p>
-                    Wrong 9
+                    You did not follow him and went to other room. 
+                    That room was full of zombies. You were killed by them. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 9-->
 
         <!--Tenth slide-->
-        <div id="10" class="step slide" data-y="-5500">
+        <div id="10" class="step slide slide_ten" data-y="-5500">
             <div class="slide-text">
                 <p>
-                    Wrong 10
+                    You entered the house. 
+                    Unfortunately one member of that house was in the house and was infected.
+                     He killed you. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 10-->
 
         <!--Eleventh slide-->
-        <div id="11" class="step slide" data-y="-8500">
+        <div id="11" class="step slide slide_eleven" data-y="-8500">
             <div class="slide-text">
                 <p>
-                    Wrong 11
+                    You did not enter the house. 
+                    You move further and were lost in streets and soon night fell and you encountered zombies. 
+                    They killed you. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 11-->
 
         <!--Twelth slide-->
-        <div id="12" class="step slide slidetwelwe" data-y="-3500">
+        <div id="12" class="step slide slide_twelve" data-y="-3500">
             <div class="slide-text">
                 <p>
                     You did not enter the room. 
                     Soon night fell and you were attacked by zombie and end up being a zombie. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 12-->
 
         <!--Thirteenth slide-->
-        <div id="13" class="step slide slidethirteen" data-y="-6500">
+        <div id="13" class="step slide slide_thirteen" data-y="-6500">
             <div class="slide-text">
                 <p>
                     You entered the room. 
                     In the room you find all the necessary material to go to safety camp. 
                     You found food, gun, map to safety camp and key of car parked outside.
                      Finally you successfully made to safety camp. 
-                    You won. 
+                     
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <h1 style="text-align:center;font-size:80px;color:green">YOU WON</h1>
+                
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 13-->
 
         <!--Fourteenth slide-->
-        <div id="14" class="step slide slidefourteen" data-z="-4500">
+        <div id="14" class="step slide slide_fourteen" data-z="-4500">
             <div class="slide-text">
                 <p>
                     You took him with you. 
                     He was infected with virus and turned soon into a zombie and attacked you. 
                     He killed you. 
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 14-->
 
         <!--Fifteenth slide-->
-        <div id="15" class="step slide slidefifteen" data-z="2500">
+        <div id="15" class="step slide slide_fifteen" data-z="2500">
             <div class="slide-text">
                 <p>
                     You left him behind. He started shouting. 
                     Zombies get attracted by his cried a reached there and killed you both.
                 </p>
-                <div class="menu"><a href="#1">Start Over</a></div>
+                <!--Link to 1st slide. Because it is one of the possible outcome. User have to start again from here..-->
+                <div class="menu"><a href="#1">START OVER</a></div>
             </div>
 
         </div><!--End of slide 15-->

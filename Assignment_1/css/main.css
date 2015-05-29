@@ -12,6 +12,7 @@ background-image:url("../Assets/Images/zombie.jpg");
 background-repeat:no-repeat;
 background-size:cover;
 }
+
 .impress-enabled .step{
     margin:0;
     opacity:0.0;
@@ -26,7 +27,7 @@ transition: 1s;
     opacity:1;
 
 }
-
+/*Decoration of slide. Common for all slides*/
 .slide{
     display:block;
     width:700px;
@@ -41,50 +42,106 @@ transition: 1s;
     font-size:30px;
    
 }
-.slideone {
+/*Properties of first slide*/
+.slide_one {
     background-image: url("../Assets/Images/first2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-
-.slidethree {
+/*Properties of second slide*/
+.slide_two {
+    background-image: url("../Assets/Images/Restaurant_entry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of third slide*/
+.slide_three {
     background-image: url("../Assets/Images/runman.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slidesix {
+/*Properties of fourth slide*/
+.slide_four {
+    background-image: url("../Assets/Images/men_talking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of fifth slide*/
+.slide_five {
+    background-image: url("../Assets/Images/house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of sixth slide*/
+.slide_six {
     background-image: url("../Assets/Images/door.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slideseven {
+/*Properties of seventh slide*/
+.slide_seven {
     background-image: url("../Assets/Images/firstaid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slidetwelwe {
+/*Properties of eighth slide*/
+.slide_eight {
+    background-image: url("../Assets/Images/manager_killed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of nineth slide*/
+.slide_nine {
+    background-image: url("../Assets/Images/zombie_room.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of tenth slide*/
+.slide_ten {
+    background-image: url("../Assets/Images/zombie_in_house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of eleventh slide*/
+.slide_eleven {
+    background-image: url("../Assets/Images/lost_street.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:stretch;
+}
+/*Properties of twelfth slide*/
+.slide_twelve {
     background-image: url("../Assets/Images/endaszombie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slidethirteen {
+/*Properties of thirteenth slide*/
+.slide_thirteen {
     background-image: url("../Assets/Images/car.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slidefourteen {
+/*Properties of fourteenth slide*/
+.slide_fourteen {
     background-image: url("../Assets/Images/attacked.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items:stretch;
 }
-.slidefifteen {
+/*Properties of fifteenth slide*/
+.slide_fifteen {
     background-image: url("../Assets/Images/cry.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +153,7 @@ transition: 1s;
 /*Styling for slide paragraphs*/
 .slide p{
    
-    background-color:green;
+    background:rgba(255,255,255,0.5);
    
     
      color:black;
@@ -113,7 +170,7 @@ transition: 1s;
 
 
 
-
+/*Decoration of hyperlinks*/
 .slide a, .slide a:visited{
     color:red;
     text-decoration:none;
@@ -121,9 +178,8 @@ transition: 1s;
     padding:5px;
     border-radius:5px;
     border:1px solid #cde;
-    
-    
 }v
+ /*Effectes on hyperlinks when mouse hover*/
 .slide a:hover, .slide a:active {
      background-color:#cde;
 
