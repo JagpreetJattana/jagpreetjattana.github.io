@@ -1,0 +1,6 @@
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\bin\COMP397-Lesson02-Part2.dll.config
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\bin\COMP397-Lesson02-Part2.dll
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\bin\COMP397-Lesson02-Part2.pdb
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\obj\Debug\COMP397-Lesson02-Part2.dll
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\obj\Debug\COMP397-Lesson02-Part2.pdb
+C:\Users\Jattana\Documents\Visual Studio 2013\Projects\S2\G Prog\Slotmachine\Slotmachine\obj\Debug\Slotmachine.csprojResolveAssemblyReference.cache
