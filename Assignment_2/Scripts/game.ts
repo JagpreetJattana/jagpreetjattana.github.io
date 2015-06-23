@@ -518,7 +518,10 @@ function betMaxButtonClicked(event: createjs.MouseEvent) {
 function powerButtonClicked(event: createjs.MouseEvent) {
     createjs.Sound.play("poweroff");
    
-    window.setTimeout(function () { window.close() }, 1500);
+    window.setTimeout(function () {
+        window.open('location', '_self','');
+        window.close()
+    }, 1500);
 
 }
 
