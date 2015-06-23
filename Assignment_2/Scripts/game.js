@@ -442,7 +442,7 @@ function betMaxButtonClicked(event) {
 //function that will work when clicked powerbutton
 function powerButtonClicked(event) {
     createjs.Sound.play("poweroff");
-    window.setTimeout(function () { window.close(); }, 2000);
+    window.setTimeout(function () { window.close(); }, 1500);
 }
 //function that will work when pressed start button
 function startButtonClicked(event) {
