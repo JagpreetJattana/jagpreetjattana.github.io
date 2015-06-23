@@ -519,7 +519,7 @@ function powerButtonClicked(event: createjs.MouseEvent) {
     createjs.Sound.play("poweroff");
    
     window.setTimeout(function () {
-        window.open('location', '_self','');
+        window.open('about:blank', '_self','');
         window.close()
     }, 1500);
 
