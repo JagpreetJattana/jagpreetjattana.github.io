@@ -443,8 +443,8 @@ function betMaxButtonClicked(event) {
 function powerButtonClicked(event) {
     createjs.Sound.play("poweroff");
     window.setTimeout(function () {
-        window.open('about:blank', '_self', '');
-        window.close();
+        // open(location, '_self').close();
+        this.window.close();
     }, 1500);
 }
 //function that will work when pressed start button
