@@ -414,7 +414,7 @@ function spinButtonClicked(event: createjs.MouseEvent) {
             tiles[2] = new createjs.Bitmap("assets/images/" + reel3.toString() + ".png");
             reelContainers[2].addChild(tiles[2]);
             stop += 1;
-            if (stop >= 24) { stop =1;clearInterval(myvar); }
+            if (stop >= 23) { stop =1;clearInterval(myvar); }
             
 
         }, 90)
@@ -518,11 +518,7 @@ function betMaxButtonClicked(event: createjs.MouseEvent) {
 function powerButtonClicked(event: createjs.MouseEvent) {
     createjs.Sound.play("poweroff");
    
-    window.setTimeout(function () {
-        window.open('','_self', '');
-       // open(location, '_self').close();
-       window.close()
-    }, 1500);
+    window.setTimeout(function () { window.close() }, 1400);
 
 }
 
