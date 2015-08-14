@@ -1,0 +1,6 @@
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\bin\COMP397-Lesson02-Part2.dll.config
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\bin\COMP397-Lesson02-Part2.dll
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\bin\COMP397-Lesson02-Part2.pdb
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\obj\Debug\COMP397-Lesson02-Part2.dll
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\obj\Debug\COMP397-Lesson02-Part2.pdb
+C:\Users\Jattana\Documents\Semester 2\Game Prog\Final Project\Final Project\Final Project\obj\Debug\Final Project.csprojResolveAssemblyReference.cache
